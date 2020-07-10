@@ -19,7 +19,7 @@ However, using a quantum algorithm, only \\(2\\) queries are required: just one 
 This module is able to generate and run a program to determine \\(\\mathbf{a}\\) and \\(b\\), given an oracle.
 It also has the ability to prescribe a way to generate an oracle out of quantum circuit components, given \\(\\mathbf{a}\\) and \\(b\\).
 
-More details about the Bernstein-Vazirani Algorithm can be found in reference [1]_.
+More details about the Bernstein-Vazirani Algorithm can be found in reference [1, 2, 3]_.
 
 Source Code Docs
 ----------------
@@ -37,3 +37,5 @@ grove.bernstein_vazirani.bernstein_vazirani
 .. rubric:: References
 
 .. [1] http://pages.cs.wisc.edu/~dieter/Courses/2010f-CS880/Scribes/04/lecture04.pdf
+.. [2] https://epubs.siam.org/doi/10.1137/S0097539796300921
+.. [3] http://wpage.unina.it/pieroandrea.bonatti/didattica/complexity/slides/Bernstein-Vazirani.pdf
